@@ -74,7 +74,7 @@ Tabela de conteúdos
     $ python .\test_functions.py
 ```
 **Resultado:** 
-os testes consistem em realizara as operações de CRUD no banco de dados na seguinte ordem:
+os testes consistem em realizar as operações de CRUD no banco de dados na seguinte ordem:
   - Insert de um documento na coleção "contatos".
   - Busca do documento inserido anteriormente.
   - Update do documento inserido inicialmente.
