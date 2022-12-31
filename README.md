@@ -65,7 +65,7 @@ Tabela de conteúdos
   </p>
 - Criar o banco de dados com o nome "test" e a coleção com o nome "contatos":
   <p align="center">
-    <img src="https://user-images.githubusercontent.com/32055359/210123031-ad8c2fcd-11bc-4887-8355-c2ea9ce49fb0.png" width="600px">
+    <img src="https://user-images.githubusercontent.com/32055359/210123542-28cb2024-e698-4fb8-b051-169e633dbd15.png" width="600px">
   </p>
 
 ### Executando os testes
