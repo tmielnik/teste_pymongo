@@ -3,7 +3,7 @@ version: '3.1'
 
 services:
 
-  mongodb:
+  mongodb: # Nome do serviço do banco de dados
     image: mongo
     container_name: mongodb-teste
     restart: always
@@ -12,5 +12,12 @@ services:
     environment:
       MONGO_INITDB_ROOT_USERNAME: ${MONGODB_USER}
       MONGO_INITDB_ROOT_PASSWORD: ${MONGODB_PASSWORD}
-      MONGO_INITDB_DATABASE: admin
+      MONGO_INITDB_DATABASE: ${MONGODB_DBNAME}
       TZ: America/Campo_Grande
+    volumes:
+      - 'db_data:/data/db'
+      - 'db_config:/data/configdb'
+
+volumes:
+  db_data:
+  db_config:
